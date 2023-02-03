@@ -1,0 +1,146 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title> Stock-Market-dashbord</title>
+    <link rel="icon" href="./image/icon-logo.png" type="image/x-icon">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- link css file -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- css-icon-link -->
+    <script src="https://kit.fontawesome.com/5a0131f9c1.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1094.0" data-gr-ext-installed>
+    <header>
+        <!-- place navbar here -->
+        <nav class="nav">
+            <a href="#" class="nav--item logo">MoneyStocker</a>
+            <a href="#" class="nav--item  btn--login">Login</a>
+        </nav>
+    </header>
+    <section id="main">
+        <div class="wrapper-1">
+            <!-- left part -->
+            <div class="left-part">
+                <div>
+                    <div class="search-box">
+                        <input type="text" class="input-box" placeholder="Search for Symbol...">
+                        <button class="btn--search">
+                        <!-- <svg class="svg-icon search-icon" aria-labelledby="title desc" role="img" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 19.9 19.7">
+                            <g class="search-path" fill="none" stroke-width="2.2px" stroke="#242424">
+                                <path stroke-linecap="square" d="M18.5 18.31-5.4-5.4"></path>
+                                <circle cx="8" cy="8" r="7"></circle>
+                            </g>
+                        </svg> -->
+                        <i class="fa fa-search fa-3x" aria-hidden="true"></i>
+                    </button>
+                    </div>
+                    <div class="filter-box">
+                        <button class="btn--filter intraday">Intraday</button>
+                        <button class="btn--filter daily">Daily</button>
+                        <button class="btn--filter weekly">Weekly</button>
+                        <button class="btn--filter monthly">Monthly</button>
+                    </div>
+                </div>
+            </div>
+            <div class="right-part">
+                <div class="img-wrapper">
+                    <video loop autoplay src="./image/stock-market.mp4" type="video/mp4" class="video"></video>
+                </div>
+            </div>
+        </div>
+        <div class="wrapper-2">
+            <div class="heading-text-box">
+                <div>
+                    <div></div>
+                </div>
+                <h1 class="heading-text">
+                    <span>Your Watchlist</span>
+                </h1>
+                <div>
+                    <div></div>
+                </div>
+            </div>
+            <!-- stock-list -->
+            <div class="stock-list">
+                <!-- stock-item-1 -->
+                <div class="stock-item">
+                    <div class="stock-item--name bg-white">
+                        <span>AMZN</span>
+                    </div>
+                    <div class="stock-item--price bg-green">
+                        <span>123.45</span>
+                    </div>
+                    <div class="stock-item--filter bg-white">
+                        <span>Intraday</span>
+                    </div>
+                    <div class="stock-item--delete bg-red">
+                        <span>Delete</span>
+                    </div>
+                </div>
+                <!-- stock-item-2 -->
+                <div class="stock-item">
+                    <div class="stock-item--name bg-white">
+                        <span>MSFT</span>
+                    </div>
+                    <div class="stock-item--price bg-white">
+                        <span>67.89</span>
+                    </div>
+                    <div class="stock-item--filter bg-white">
+                        <span>daily</span>
+                    </div>
+                    <div class="stock-item--delete bg-red">
+                        <span>Delete</span>
+                    </div>
+                </div>
+                <!-- stock-item-3 -->
+                <div class="stock-item">
+                    <div class="stock-item--name bg-white">
+                        <span>IBM</span>
+                    </div>
+                    <div class="stock-item--price bg-red">
+                        <span>56.34</span>
+                    </div>
+                    <div class="stock-item--filter bg-white">
+                        <span>Monthly</span>
+                    </div>
+                    <div class="stock-item--delete bg-red">
+                        <span>Delete</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <!-- place footer here -->
+            <div class="social-box">
+                <a href="#" class="s-box">
+                    <i class="fa-brands fa-facebook-f">
+                    </i>
+                </a>
+                <a href="#" class="s-box">
+                    <i class="fa-brands fa-instagram">
+                    </i>
+                </a>
+                <a href="#" class="s-box">
+                    <i class="fa-brands fa-twitter">
+                    </i>
+                </a>
+            </div>
+        </footer>
+    </section>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
